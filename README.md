@@ -1,5 +1,7 @@
 # Game Assistance Plants vs Zombies
 
+![title_img](doc/title_img.png)
+
 A tool to plant Peashooter anywhere without cold-down.
 
 For study purpose only.
@@ -8,7 +10,7 @@ Video Demo: [Vimeo](https://vimeo.com/434653404)
 
 Executable File Download: [Google Drive](https://drive.google.com/drive/folders/1kosHNwibYfFa_6pvcXbufKA8rBibAdtK?usp=sharing)
 
-Steps:
+Steps (CreateRemoteThread dll injection):
 - Using CheatEngine, located the memory address of Sun
 - Using OllyDbg, intercepted the memory address of the planting function, since it causes the decrease of Sun
 - Allocated heap memory in PvZ process, and wrote the assistance dll's path into the heap
@@ -20,6 +22,8 @@ Steps:
 
 # 植物大战僵尸辅助工具
 
+![title_img](doc/title_img.png)
+
 一个能无限制种植豌豆射手的辅助工具。
 
 仅供学习使用。
@@ -28,7 +32,7 @@ Steps:
 
 可执行文件下载：[蓝奏云](https://wws.lanzous.com/itzeee8tnnc)
 
-步骤：
+步骤（创建远程线程 dll注入）：
 - 使用CheatEngine，定位阳光的内存地址
 - 由于种植植物会减少阳光，使用OllyDbg，拦截到种植植物函数
 - 在游戏进程中申请一块堆空间，并把辅助工具dll的路径写入此空间
